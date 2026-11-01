@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Resource solid untuk tampilan aplikasi. -->
+    <solid
+        android:color="#DCFCE7" />
+    <!-- Resource corners untuk tampilan aplikasi. -->
+    <corners
+        android:radius="18dp" />
+    <!-- Resource stroke untuk tampilan aplikasi. -->
+    <stroke
+        android:width="1dp"
+        android:color="#DCFCE7" />
+    <!-- Resource padding untuk tampilan aplikasi. -->
+    <padding
+        android:left="14dp"
+        android:right="14dp"
+        android:top="12dp"
+        android:bottom="12dp" />
+</shape>

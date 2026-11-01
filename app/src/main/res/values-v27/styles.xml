@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Resource style untuk tampilan aplikasi. -->
+    <style
+        name="AppTheme"
+        parent="AppThemeBase">
+        <!-- Resource item untuk tampilan aplikasi. -->
+        <item
+            name="android:windowLightNavigationBar">true</item>
+        <!-- Resource item untuk tampilan aplikasi. -->
+        <item
+            name="android:navigationBarColor">@color/cream</item>
+    </style>
+</resources>

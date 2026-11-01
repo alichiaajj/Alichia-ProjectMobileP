@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- Resource item untuk tampilan aplikasi. -->
+    <item
+        android:id="@+id/menu_notifications"
+        android:icon="@drawable/ic_bell"
+        android:title="Notifikasi"
+        app:showAsAction="ifRoom"
+        app:iconTint="@android:color/white" />
+    <!-- Resource item untuk tampilan aplikasi. -->
+    <item
+        android:id="@+id/menu_info"
+        android:title="Panduan lingkungan"
+        app:showAsAction="never" />
+    <!-- Resource item untuk tampilan aplikasi. -->
+    <item
+        android:id="@+id/menu_about"
+        android:title="Tentang Civic Pulse"
+        app:showAsAction="never" />
+    <!-- Resource item untuk tampilan aplikasi. -->
+    <item
+        android:id="@+id/menu_logout"
+        android:title="Logout"
+        app:showAsAction="never" />
+</menu>

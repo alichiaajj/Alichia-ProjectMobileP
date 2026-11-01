@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Resource string untuk tampilan aplikasi. -->
+    <string
+        name="app_name">Civic Pulse</string>
+    <!-- Resource string untuk tampilan aplikasi. -->
+    <string
+        name="slogan">Bersama, Untuk Lingkungan Kita</string>
+</resources>

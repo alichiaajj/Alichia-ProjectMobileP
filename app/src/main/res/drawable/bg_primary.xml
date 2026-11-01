@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Resource item untuk tampilan aplikasi. -->
+    <item
+        android:state_pressed="true">
+        <!-- Resource shape untuk tampilan aplikasi. -->
+        <shape>
+            <!-- Resource solid untuk tampilan aplikasi. -->
+            <solid
+                android:color="#115E59" />
+            <!-- Resource corners untuk tampilan aplikasi. -->
+            <corners
+                android:radius="28dp" />
+        </shape>
+    </item>
+    <!-- Resource item untuk tampilan aplikasi. -->
+    <item>
+        <!-- Resource shape untuk tampilan aplikasi. -->
+        <shape>
+            <!-- Resource gradient untuk tampilan aplikasi. -->
+            <gradient
+                android:startColor="#14B8A6"
+                android:endColor="#0F766E"
+                android:angle="270" />
+            <!-- Resource corners untuk tampilan aplikasi. -->
+            <corners
+                android:radius="28dp" />
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F8FAFC">
+    <!-- ScrollView menjaga teks dapat dibaca pada layar kecil atau landscape. -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="28dp">
+        <!-- Header wave yang sama mempertahankan identitas warna aplikasi. -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/bg_header_wave" />
+        <!-- Ikon vector mengikuti fitur yang dijelaskan pada halaman ini. -->
+        <ImageView
+            android:layout_width="88dp"
+            android:layout_height="88dp"
+            android:src="@drawable/ic_heart"
+            android:contentDescription="Peduli Bersama Warga"
+            android:layout_marginTop="16dp" />
+        <!-- Judul tutorial. -->
+        <TextView
+            style="@style/Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Peduli Bersama Warga"
+            android:gravity="center"
+            android:textSize="22sp" />
+        <!-- Penjelasan singkat berdasarkan fitur yang benar-benar tersedia. -->
+        <TextView
+            style="@style/Body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Buka Komunitas untuk membaca informasi warga dan Mutual Help untuk melihat kebutuhan bantuan. Pada versi latihan ini, tombol bergabung dan membantu belum diaktifkan."
+            android:gravity="center"
+            android:textSize="16sp" />
+        <!-- Petunjuk penggunaan halaman geser. -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="3 dari 3 • Geser kiri atau kanan"
+            android:textColor="@color/teal"
+            android:gravity="center" />
+    </LinearLayout>
+</ScrollView>

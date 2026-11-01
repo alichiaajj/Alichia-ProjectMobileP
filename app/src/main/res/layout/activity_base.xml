@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/cream">
+    <!-- Toolbar modul 5 dipasang sebagai ActionBar melalui View Binding. -->
+    <!-- Resource androidx.appcompat.widget.Toolbar untuk tampilan aplikasi. -->
+    <FrameLayout
+        android:id="@+id/header_area"
+        android:layout_width="match_parent"
+        android:layout_height="112dp">
+        <!--Background berada di belakang Toolbar sehingga judul, notifikasi, dan titik tiga tampil di atas gelombang.-->
+        <View
+            android:id="@+id/background_header"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_header_wave" />
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@android:color/transparent"
+            app:titleTextColor="@android:color/white"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+    </FrameLayout>
+    <!-- Resource FrameLayout untuk tampilan aplikasi. -->
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    <!-- Navigasi Material sungguhan, sesuai modul 7. -->
+    <!-- Resource com.google.android.material.bottomnavigation.BottomNavigationView untuk tampilan aplikasi. -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        app:labelVisibilityMode="labeled"
+        app:itemIconTint="@color/nav_colors"
+        app:itemTextColor="@color/nav_colors"
+        app:menu="@menu/bottom_nav_menu" />
+</LinearLayout>

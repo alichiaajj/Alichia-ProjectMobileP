@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="140dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <!-- Lapisan mint mengikuti warna desain Civic Pulse. -->
+    <path
+        android:fillColor="@color/light_green"
+        android:pathData="M0,0 L100,0 L100,87 C75,100 25,72 0,92 Z" />
+    <!-- Lapisan teal membentuk lengkungan utama di bagian atas halaman. -->
+    <path
+        android:fillColor="@color/teal"
+        android:pathData="M0,0 L100,0 L100,78 C75,96 25,64 0,82 Z" />
+</vector>

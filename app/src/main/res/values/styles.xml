@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Resource style untuk tampilan aplikasi. -->
+    <style
+        name="AppThemeBase"
+        parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Resource item untuk tampilan aplikasi. -->
+        <item
+            name="android:fontFamily">@font/inter</item>
+        <!-- Resource item untuk tampilan aplikasi. -->
+        <item
+            name="colorPrimary">@color/teal</item>
+        <!-- Resource item untuk tampilan aplikasi. -->
+        <item
+            name="colorPrimaryVariant">@color/teal</item>
+        <!-- Resource item untuk tampilan aplikasi. -->
+        <item
+            name="colorSecondary">@color/mint</item>
+        <!-- Resource item untuk tampilan aplikasi. -->
+        <item
+            name="android:colorAccent">@color/teal</item>
+        <!-- Resource item untuk tampilan aplikasi. -->
+        <item
+            name="android:windowLightStatusBar">true</item>
+        <!-- Resource item untuk tampilan aplikasi. -->
+        <item
+            name="android:statusBarColor">@color/cream</item>
+        <!-- Resource item untuk tampilan aplikasi. -->
+        <item
+            name="android:navigationBarColor">@color/teal</item>
+        <!-- Resource item untuk tampilan aplikasi. -->
+        <item
+            name="android:windowActionModeOverlay">true</item>
+        <!-- Resource item untuk tampilan aplikasi. -->
+        <item
+            name="android:windowBackground">@color/cream</item>
+    </style>
+    <!-- Resource style untuk tampilan aplikasi. -->
+    <style
+        name="AppTheme"
+        parent="AppThemeBase" />
+    <!-- Resource style untuk tampilan aplikasi. -->
+    <style
+        name="Title">
+        <!-- Resource item untuk tampilan aplikasi. -->
+        <item
+            name="android:textSize">23sp</item>
+        <!-- Resource item untuk tampilan aplikasi. -->
+        <item
+            name="android:textStyle">bold</item>
+        <!-- Resource item untuk tampilan aplikasi. -->
+        <item
+            name="android:textColor">@color/dark</item>
+        <!-- Resource item untuk tampilan aplikasi. -->
+        <item
+            name="android:fontFamily">@font/poppins_semibold</item>
+    </style>
+    <!-- Resource style untuk tampilan aplikasi. -->
+    <style
+        name="Body">
+        <!-- Resource item untuk tampilan aplikasi. -->
+        <item
+            name="android:textSize">14sp</item>
+        <!-- Resource item untuk tampilan aplikasi. -->
+        <item
+            name="android:textColor">@color/muted</item>
+        <!-- Resource item untuk tampilan aplikasi. -->
+        <item
+            name="android:lineSpacingExtra">4dp</item>
+    </style>
+    <!-- Resource style untuk tampilan aplikasi. -->
+    <style
+        name="Primary">
+        <!-- Resource item untuk tampilan aplikasi. -->
+        <item
+            name="backgroundTint">@null</item>
+        <!-- Resource item untuk tampilan aplikasi. -->
+        <item
+            name="android:backgroundTint">@null</item>
+        <!-- Resource item untuk tampilan aplikasi. -->
+        <item
+            name="android:background">@drawable/bg_primary</item>
+        <!-- Resource item untuk tampilan aplikasi. -->
+        <item
+            name="android:textColor">#FFFFFF</item>
+        <!-- Resource item untuk tampilan aplikasi. -->
+        <item
+            name="android:textAllCaps">false</item>
+        <!-- Resource item untuk tampilan aplikasi. -->
+        <item
+            name="android:textStyle">bold</item>
+        <!-- Resource item untuk tampilan aplikasi. -->
+        <item
+            name="android:minHeight">48dp</item>
+        <!-- Resource item untuk tampilan aplikasi. -->
+        <item
+            name="android:paddingLeft">18dp</item>
+        <!-- Resource item untuk tampilan aplikasi. -->
+        <item
+            name="android:paddingRight">18dp</item>
+        <!-- Resource item untuk tampilan aplikasi. -->
+        <item
+            name="android:stateListAnimator">@null</item>
+    </style>
+</resources>
